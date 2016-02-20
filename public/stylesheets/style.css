@@ -1,0 +1,28 @@
+body {
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.proposal-rank-group {
+  float: right;
+  background: blanchedalmond;
+  border-radius: 2px;
+  padding: 2px;
+  display: inline-block;
+}
+
+.proposal-rank-group .proposal-rank {
+  margin: 10px;
+}
+
+.proposal-city {
+  margin: 10px;
+}
+
+.proposal-country {
+  margin: 10px;
+}

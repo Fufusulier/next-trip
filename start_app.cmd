@@ -1,0 +1,1 @@
+SET DEBUG=next-trip:* & npm start

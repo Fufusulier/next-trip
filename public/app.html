@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+  <link href="public/stylesheets/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
+  <style>
+  html,
+  body,
+  #map {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Next Trip</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+  <div class="container">
+    <div class="starter-template">
+      <div>
+        <div id="map"></div>
+      </div>
+      <ul id="existing-proposals" class="list-group">
+      </ul>
+      <div>
+        <label>City</label>
+        <input type='text' id="proposal-city" />
+        <label>Country</label>
+        <select id="proposal-country">
+          <option value="BE">Belgium</option>
+          <option value="FR">France</option>
+          <option value="ES">Spain</option>
+          <option value="PT">Portugal</option>
+        </select>
+        <button id="proposal-add" class="btn btn-primary">Add</button>
+      </div>
+    </div>
+  </div>
+  <!-- /.container -->
+  <script src="https://js.arcgis.com/3.15/"></script>
+  <script type="text/javascript" src="vendor/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="vendor/underscore/underscore.js"></script>
+  <script type="text/javascript" src="public/javascripts/app-client.js"></script>
+</body>
+
+</html>
