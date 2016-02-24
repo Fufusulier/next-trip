@@ -1,0 +1,22 @@
+{
+  "name": "next-trip",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Y. Fusulier <yannick.fusulier@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/fufu-be/next-trip",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "underscore": "^1.8.3"
+  }
+}
